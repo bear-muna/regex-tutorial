@@ -1,4 +1,4 @@
-# RegEx Tutorial
+# RegEx Tutorial (Hex Value)
 
 Welcome to my gist breaking down a specific regular expression. Regular Expression, or RegEx for short, are used by combining special characters to create a specific search pattern.
 <p>An example of a RegEx used for a username:</p>
