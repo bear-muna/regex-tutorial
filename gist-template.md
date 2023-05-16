@@ -1,12 +1,16 @@
-# Title (replace with your title)
+# RegEx Tutorial
 
-Matching a Hex Value: /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
-
-Introductory paragraph (replace this with your text)
+Welcome to my gist breaking down a specific regular expression. Regular Expression, or RegEx for short, are used by combining special characters to create a specific search pattern.
+<p>An example of a RegEx used for a username:</p>
+<pre><code>/^[a-z0-9_-]{3,16}$/</pre></code>
+The RegEx we are going to look at is for matching a Hex Value. Below is a table of contents explaining the many components of the RegEx we are going to be looking at. Without further ado, let's jump right into it!
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+With this particular RegEx, we will be looking at the Anchors, Quantifiers, Grouping Constructs, Brackets Expressions, the OR Operator.
+
+<p>Matching a Hex Value:</p>
+<pre><code>/^#?([a-f0-9]{6}|[a-f0-9]{3})$/</pre></code>
 
 ## Table of Contents
 
