@@ -45,7 +45,13 @@ End of the RegEx
 
 ### Quantifiers
 
+Quantifiers are used to set limits on the string we are searching for. Quantifiers can be used on the RegEx as a whole or be placed within subexpressions. Quantifiers are expressed using '{ }' with values inside the brackets. 
 
+This specific quantifier is looking for a string with EXACTLY 6 characters
+<pre><code>[a-f0-9]{6}</pre></code>
+
+This specific quantifier is looking for a string with EXACTLY 3 characters
+<pre><code>[a-f0-9]{3}</pre></code>
 
 ### Grouping Constructs
 
