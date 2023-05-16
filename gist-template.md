@@ -27,7 +27,25 @@ With this particular RegEx, we will be looking at the Anchors, Quantifiers, Grou
 
 ### Anchors
 
+Anchors are used to signify the beginning and ending of a string you are trying to search for.
+
+<p>Common Anchors:</p>
+
+<pre><code>^ and $</pre></code>
+
+Within our Hex Value example, we can see that the ^ and the $ are placed at both ends of the RegEx to signify the beginning and ending of the string we are trying to search for.
+
+<pre><code>/^#?([a-f0-9]{6}|[a-f0-9]{3})$/</pre></code>
+
+Beginning of the RegEx
+<pre><code>/^....</pre></code>
+
+End of the RegEx
+<pre><code>....$/</pre></code>
+
 ### Quantifiers
+
+
 
 ### Grouping Constructs
 
