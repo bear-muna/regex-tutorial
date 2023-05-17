@@ -16,7 +16,6 @@ With this particular RegEx, we will be looking at the Anchors, Quantifiers, Grou
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [Grouping Constructs](#grouping-constructs)
 - [Bracket Expressions](#bracket-expressions)
 - [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
@@ -53,9 +52,15 @@ This specific quantifier is looking for a string with EXACTLY 6 characters
 This specific quantifier is looking for a string with EXACTLY 3 characters
 <pre><code>[a-f0-9]{3}</pre></code>
 
-### Grouping Constructs
-
 ### Bracket Expressions
+
+Bracket expressions are used within the '[]' to narrow down what we want to find in our search. Within the bracket expression, we can have multiple search parameters for our RegEx.
+
+Within a Hex Value, there is a specific range of character that we can have.
+
+<pre><code>[a-f0-9]</pre></code>
+
+This RegEx is looking for letters between 'a-f' and numbers from '0-9'.
 
 ### Character Classes
 
