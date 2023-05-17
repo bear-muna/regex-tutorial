@@ -72,4 +72,6 @@ This RegEx is looking for a string that is either 6 characters long OR 3 charact
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+EJ Muna - Aspiring developer
+
+Github: https://github.com/bear-muna
