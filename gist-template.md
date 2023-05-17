@@ -17,10 +17,7 @@ With this particular RegEx, we will be looking at the Anchors, Quantifiers, Grou
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
 - [Bracket Expressions](#bracket-expressions)
-- [Character Classes](#character-classes)
 - [The OR Operator](#the-or-operator)
-- [Flags](#flags)
-- [Character Escapes](#character-escapes)
 
 ## Regex Components
 
@@ -44,13 +41,16 @@ End of the RegEx
 
 ### Quantifiers
 
-Quantifiers are used to set limits on the string we are searching for. Quantifiers can be used on the RegEx as a whole or be placed within subexpressions. Quantifiers are expressed using '{ }' with values inside the brackets. 
+Quantifiers are used to set limits on the string we are searching for. Quantifiers can be used on the RegEx as a whole or be placed within subexpressions. Quantifiers are expressed using '{ }' with values inside the brackets or a '?'. 
 
 This specific quantifier is looking for a string with EXACTLY 6 characters
 <pre><code>[a-f0-9]{6}</pre></code>
 
 This specific quantifier is looking for a string with EXACTLY 3 characters
 <pre><code>[a-f0-9]{3}</pre></code>
+
+Another quantifier of this RegEx is the '?'. This means that when searching for a string, there should be a match zero or one times.
+<pre><code>/^#?([...])$/</pre></code>
 
 ### Bracket Expressions
 
@@ -62,13 +62,13 @@ Within a Hex Value, there is a specific range of character that we can have.
 
 This RegEx is looking for letters between 'a-f' and numbers from '0-9'.
 
-### Character Classes
-
 ### The OR Operator
 
-### Flags
+The OR operater is denoted with the '|' symbol. This expands the search to include different search parameters.
 
-### Character Escapes
+<pre><code>/^#?([a-f0-9]{6}|[a-f0-9]{3})$/</pre></code>
+
+This RegEx is looking for a string that is either 6 characters long OR 3 characters long.
 
 ## Author
 
